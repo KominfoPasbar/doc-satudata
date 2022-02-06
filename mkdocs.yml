@@ -2,11 +2,14 @@ site_name: Satu Data Pasaman Barat
 site_description: Petunjuk Manual SatudataPasamana Barat
 site_author: refyandra
 copyright: Diskominfo Pasaman Barat
-docs:
-    /assets
-# nav:
-#     - 'index.md'
-#     - 'about.md'
+# docs:
+#    /assets
+nav:
+    - 'index.md'
+    - 'kelembagaan.md'
+    - 'istilah.md'
+    - 'penggunaan.md'
+    - 'alat.md'
 markdown_extensions:
   - meta
   - attr_list
@@ -41,7 +44,7 @@ theme:
 extra:
   homepage: https://data.pasamanbaratkab.go.id/
   version:
-    provider: mike 1.0
+    provider: mike 
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:diskominfo.pasbar12@gmail.com

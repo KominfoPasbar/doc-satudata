@@ -95,3 +95,5 @@ Untuk menyelesaikan masalah unstructured data dalam implementasi Satu Data Pasam
  - [Perpres Nomor 39 Tahun 2019 tentang Satu Data Indonesia](https://bigbox.co.id/blog/wp-content/uploads/2021/10/Perpres-Nomor-39-Tahun-2019-satu-data-indonesia-by-bigbox.pdf)
  - [Perpres no 95 tentang sistem pemerintahan berbasis elektronik](https://bigbox.co.id/blog/wp-content/uploads/2021/10/perpres-no-95-tentang-sistem-pemerintahan-berbasis-elektronik.pdf)
  - [Cetak Biru Satu Data Indonesia](https://bigbox.co.id/blog/wp-content/uploads/2021/10/cetak_biru_satu_data_indonesia_bappenas.pdf)
+
+ - [SDI](https://bigbox.co.id/blog/satu-data-indonesia-panduan-lengkap-bigbox-telkom-indonesia/#berdasarkan-tim-satu-data-indonesia)
