@@ -1,0 +1,75 @@
+site_name: Satu Data Pasaman Barat
+site_description: Petunjuk Manual SatudataPasamana Barat
+site_author: refyandra
+copyright: Diskominfo Pasaman Barat
+docs:
+    /assets
+# nav:
+#     - 'index.md'
+#     - 'about.md'
+markdown_extensions:
+  - meta
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - tables
+theme:
+    name: material #readthedocs #material
+    language: id
+    features:
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    icon:
+    repo: fontawesome/brands/git-alt
+    palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra:
+  homepage: https://data.pasamanbaratkab.go.id/
+  version:
+    provider: mike 1.0
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:diskominfo.pasbar12@gmail.com
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/diskominfopasbar 
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/diskominfopasamanbarat   
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UC-0zm_xbJQjK6bQ2g0P7pVg
+
+#plugins:
+plugins:
+  #- git-revision-date
+  - git-revision-date-localized:
+      type: datetime
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - search:
+      prebuild_index: true
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - mike:
+      # these fields are all optional; the defaults are as below...
+      version_selector: true   # set to false to leave out the version selector
+      css_dir: css             # the directory to put the version selector's CSS
+      javascript_dir: js       # the directory to put the version selector's JS
+      canonical_version: null  # the version for <link rel="canonical">; `null`    
+
+# REPO
+repo_url: https://github.com/KominfoPasbar/doc-satudata
+repo_name: KominfoPasbar/doc-satudata
+edit_uri: edit/master/docs/
